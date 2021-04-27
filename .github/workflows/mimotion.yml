@@ -1,6 +1,7 @@
 name: mimotion
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "35 10 * * *"
   push:
